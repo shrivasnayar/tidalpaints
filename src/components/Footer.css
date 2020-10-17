@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+.footer{
+  background-color: white;
+  display: flex;
+  z-index:10;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  min-height:80px;
+  
+}
+
+.tidal-paints{
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .footer{
+    height: 90px;
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  .tidal-paints{
+    position: relative;
+    bottom: 15px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+  }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+  }
+    
+}
+

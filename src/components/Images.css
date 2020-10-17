@@ -1,0 +1,63 @@
+
+.slider{
+  position: relative;
+  margin-left: 60px;
+  width: 85%;
+  
+}
+
+
+.pictures{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  
+;
+ 
+}
+
+.image{
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+
+    
+}
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+  .image{
+    width: 265px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .slider{
+    position: relative;
+    right: 15px;
+  }
+
+} 
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .image{
+    width: 450px;
+    height: 450px;
+    margin: 2px;
+    position: relative;
+    left: 110px;
+  }
+
+  .slider{
+    position: relative;
+    text-align: center;
+  }
+}
+
+

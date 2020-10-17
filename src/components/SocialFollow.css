@@ -1,0 +1,56 @@
+
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-left: 60px;
+    
+  }
+
+  .social-container h2{
+    font-size: 1.4rem;
+    height: 50px;
+    width: 100px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  a.social {
+    transition: transform 250ms;
+    transition: transform 250ms;
+    display: inline-block;
+    height: 50px;
+    width: 75px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+  a.facebook {
+    color: #4968ad;
+
+  }
+
+  a.instagram {
+    color: black;
+
+    
+  }
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+   .follow{
+     position: relative;
+   }
+
+   a.social{
+     position: relative;
+     top: 5px;
+   }
+      
+  }
