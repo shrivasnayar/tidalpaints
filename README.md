@@ -1,1 +1,1 @@
-tidalpaints.co.uk
+Website made for a client using React.
