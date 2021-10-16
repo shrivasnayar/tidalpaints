@@ -4,4 +4,4 @@ Website made for a client using React.
 
 # If we worry about failure, we will never make the step forward.
 
-# Change made directly to lone repo.
+# Change made directly to clone repo.
