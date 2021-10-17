@@ -1,5 +1,2 @@
-# New feature line added.
-
-# more lines added
-
-# ERROR LINE
+# 1st line
+# 2nd line
